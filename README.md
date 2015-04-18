@@ -17,3 +17,17 @@ module: {
   ]
 }
 ```
+
+# ng-classify options
+
+this loader reads the ngClassify option in your webpack.config file:
+
+webpack.config.js:
+```js
+ngClassify: {
+  appName: 'myApp'
+  controller: {format: 'upperCamelCase', suffix: 'Ctrl'}
+  factory: {format: 'lowerCase'}
+  service: {format: 'lowerCase'}
+}
+```
