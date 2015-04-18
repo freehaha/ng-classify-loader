@@ -1,0 +1,21 @@
+{
+  "name": "ng-classify-loader",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+	  "name": "Freehaha",
+	  "email": "freehaha@gmail.com"
+  },
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/freehaha/ng-classify-loader.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ng-classify": "^4.1.1"
+  }
+}
