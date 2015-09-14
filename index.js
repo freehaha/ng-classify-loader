@@ -1,6 +1,7 @@
 var classify = require('ng-classify')
 
 module.exports = function(content) {
+  this.casheable();
   var options = this.options || {};
   if(options.ngClassify) {
     options = options.ngClassify;
